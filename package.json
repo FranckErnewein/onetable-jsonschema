@@ -4,6 +4,7 @@
   "description": "convert JSON schema into OneTable Schema",
   "main": "dist/index.js",
   "scripts": {
+    "build": "npx tsc",
     "test": "npx jest src"
   },
   "keywords": [

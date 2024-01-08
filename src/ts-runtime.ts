@@ -1,6 +1,6 @@
 // this file is here to validate the dynamic typescript type generated
 // you do not need to run anything, just display the type
-import { jsonSchemaToOneTable } from './jsonSchemaToOneTable';
+import { jsonSchemaToOneTable } from './';
 
 // you can add new properties to this JSONSchema to test new types
 export const jsonSchema = {
