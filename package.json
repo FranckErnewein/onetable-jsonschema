@@ -1,6 +1,6 @@
 {
   "name": "onetable-jsonschema",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "convert JSON schema into OneTable schema",
   "main": "dist/index.js",
   "files": ["dist/index.js"],
