@@ -1,6 +1,6 @@
 {
   "name": "onetable-jsonschema",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "convert JSON schema into OneTable schema",
   "main": "dist/index.js",
   "files": ["dist/index.js"],
@@ -9,8 +9,16 @@
     "test": "npx jest src"
   },
   "keywords": [
-    "https://github.com/FranckErnewein/onetable-jsonschema"
+    "jsonschema",
+    "json",
+    "schema",
+    "oneTable",
+    "DynamoDB"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FranckErnewein/onetable-jsonschema.git"
+  },
   "author": "Franck Ernewein",
   "license": "ISC",
   "devDependencies": {
