@@ -1,8 +1,9 @@
 {
   "name": "onetable-jsonschema",
-  "version": "1.0.0",
-  "description": "convert JSON schema into OneTable Schema",
+  "version": "0.0.1",
+  "description": "convert JSON schema into OneTable schema",
   "main": "dist/index.js",
+  "files": ["dist/index.js"],
   "scripts": {
     "build": "npx tsc",
     "test": "npx jest src"

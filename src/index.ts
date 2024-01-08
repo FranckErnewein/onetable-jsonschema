@@ -82,6 +82,7 @@ type DialogOneModel<T extends JSONSchema> = T extends {
   : never;
 
 class JsonSchemaToOneTableError extends Error {
+
   constructor(message: string) {
     super(message);
     this.name = 'JsonSchemaToOneTableError';
@@ -150,7 +151,7 @@ const appendSchema = (
     ? { schema: jsonSchemaToOneTable(json) }
     : undefined;
 
-export const jsonSchemaToOneTable = <
+const jsonSchemaToOneTable = <
   T extends JSONSchema,
   O extends OverrideOptions = Record<string, never>,
 >(
@@ -191,3 +192,5 @@ export const jsonSchemaToOneTable = <
     'Only object type (and not nested) are supported yet',
   );
 };
+
+export default jsonSchemaToOneTable;
