@@ -1,0 +1,17 @@
+{
+  "name": "onetable-jsonschema",
+  "version": "1.0.0",
+  "description": "convert JSON schema into OneTable Schema",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "https://github.com/FranckErnewein/onetable-jsonschema"
+  ],
+  "author": "Franck Ernewein",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
